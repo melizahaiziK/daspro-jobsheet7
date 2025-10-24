@@ -34,3 +34,16 @@ Dengan menulis i++ di akhir loop, kita memastikan bahwa semua perintah di dalam 
 3. Apabila jumlah mahasiswa yang dimasukkan adalah 19, berapa kali perulangan WHILE
 akan berjalan?
 jawaban : perulangan akan terus berjalan sesuai dengan jumlah mahasiswa yang dimasukkan.
+
+PERTANYAAN PERCOBAAN 3
+1. Pada penggunaan DO-WHILE ini, apabila nama pelanggan yang dimasukkan pertama kali
+adalah “batal”, maka berapa kali perulangan dilakukan?
+jawaban : tidak dilakukan perulangan dikarenakan jika kita suda menginputkan 'batal' maka program otomatis memberhentikan perulangan karena adanya statement break.
+2. Sebutkan kondisi berhenti yang digunakan pada perulangan DO-WHILE tersebut!
+jawaban : kondisi yang digunakan adalah kondisi Break.
+3. Apa fungsi dari penggunaan nilai true pada kondisi DO-WHILE?
+jawaban : nilai true adalah kondisi logika yang selalu bernilai benar.
+jika perulangan do–while ini akan berjalan terus-menerus tanpa berhenti selama tidak menginputkan 'batal' pada inputan nama pelanggan.
+4. Mengapa perulangan DO-WHILE tersebut tetap berjalan meskipun tidak ada komponen
+inisialisasi dan update?
+jawaban : Perulangan ini tetap berjalan terus karena kondisinya selalu bernilai true. Kondisi while(true) membuat perulangan berjalan tanpa batas Jadi, program akan terus meminta input
