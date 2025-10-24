@@ -1,3 +1,5 @@
+PERTANYAAN PERCOBAAN 1
+
 1. Sebutkan dan tunjukkan masing-masing komponen perulangan FOR pada kode program
 Percobaan 1!
 jawaban : 1. (int i = 1;
@@ -16,3 +18,19 @@ Jika variabel tertinggi dibalik maka tidak ada nilai yang lebih besar dari 100, 
             terendah = nilai;
         }
 jawaban : baris pertama berfungsi untuk memeriksa nilai yang kita input apakah nilainya   itu lebih besar dari nilai tertinggi. Baris kedua befungsi untuk memeriksa nilai yang kita inputkan apakah nilainya itu lebih kecil dari nilai terendah.
+
+PERTANYYAN PERCOBAN 2
+1. Pada potongan kode berikut, tentukan maksud dan kegunaan dari sintaks berikut:
+a. nilai < 0 || nilai > 100
+b. continue
+jawaban : a. kode tersebut bermaksud jika nilai kurang dari 0 dan lebih dari 100, kegunaannya adalah untuk memeriksa nilai inputan, jika nilai kurang dari 0 dan lebih dari 100 maka program akan menampilkan input salah dan akan meminta untuk menginputkan kembali.
+b. continue digunakan untuk melewati (skip) iterasi saat ini (1
+iterasi saja) dan melanjutkan ke iterasi berikutnya. Jika inputan bernilai lebih dari yang ditentukan maka program akan meng skip hasil dan mengulangi pertanyaannya.
+2. Mengapa sintaks i++ dituliskan di akhir perulangan WHILE? Apa yang terjadi jika posisinya
+dituliskan di awal perulangan WHILE?
+jawaban :
+i++ digunakan untuk menaikkan nilai variabel penghitung setelah satu kali perulangan selesai.
+Dengan menulis i++ di akhir loop, kita memastikan bahwa semua perintah di dalam loop dijalankan dulu, baru kemudian nilai i bertambah, dan juga agar memunculkan output yang terurut. Jika i++ ditaruh diakhir Maka nilai penghitung akan naik terlebih dahulu sebelum isi perulangan dijalankan. Akibatnya, data pertama akan terlewat, dan jumlah perulangan akan berkurang satu kali dari yang seharusnya.
+3. Apabila jumlah mahasiswa yang dimasukkan adalah 19, berapa kali perulangan WHILE
+akan berjalan?
+jawaban : perulangan akan terus berjalan sesuai dengan jumlah mahasiswa yang dimasukkan.
